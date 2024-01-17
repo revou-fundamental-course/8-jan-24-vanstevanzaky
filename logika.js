@@ -30,9 +30,9 @@ function calculate() {
     // Membuat string HTML berdasarkan jenis perhitungan
     var resultHTML = `<p>Sisi = ${sideLength}</p>`;
     if (calculationType === "luas") {
-      resultHTML += `<p>Sisi x Sisi: ${sideLength} x ${sideLength} = ${area}</p>`;
+      resultHTML += `<p>Sisi x Sisi = ${sideLength} x ${sideLength} = ${area}</p>`;
     } else {
-      resultHTML += `<p>4 x Sisi: 4 x ${sideLength} = ${perimeter}</p>`;
+      resultHTML += `<p>4 x Sisi = 4 x ${sideLength} = ${perimeter}</p>`;
     }
   
     // Menyisipkan hasil ke dalam elemen result
