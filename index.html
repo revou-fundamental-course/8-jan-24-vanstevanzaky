@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tampilan.css">
+  <title>Hitung Luas & Keliling Persegi</title>
+</head>
+<body>
+  <div class="calculator">
+    <h1>Kalkulator</h1>
+    <h2>Hitung Luas & Keliling Persegi</h2>
+
+    <!-- Input untuk panjang sisi -->
+    <label for="sideLength">Panjang Sisi:</label>
+    <input type="number" id="sideLength" placeholder="Masukkan panjang sisi">
+
+    <!-- Radio button untuk memilih menghitung luas atau keliling -->
+    <label>
+      <input type="radio" name="calculationType" value="luas" checked> Hitung Luas
+    </label>
+    <label>
+      <input type="radio" name="calculationType" value="keliling"> Hitung Keliling
+    </label>
+
+    <!-- Tombol hitung -->
+    <button onclick="calculate()">Hitung</button>
+
+    <!-- Elemen <div> untuk menampilkan hasil perhitungan -->
+    <div id="result"></div>
+
+    <!-- Elemen <img> untuk link gambar -->
+    <img src="persegi.jpg" alt="Deskripsi Gambar">
+  </div>
+
+  <!-- Menambahkan elemen <script> untuk file JavaScript -->
+  <script src="logika.js"></script>
+</body>
+</html>
